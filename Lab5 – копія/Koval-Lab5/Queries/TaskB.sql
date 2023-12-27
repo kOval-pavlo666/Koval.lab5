@@ -1,0 +1,3 @@
+﻿SELECT *
+FROM Shop
+WHERE Price BETWEEN 50 AND 300;

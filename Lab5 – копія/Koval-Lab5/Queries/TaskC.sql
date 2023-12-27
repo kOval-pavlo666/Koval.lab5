@@ -1,0 +1,3 @@
+﻿SELECT *
+FROM Shop
+WHERE (ShopName LIKE '%ATB%' OR (Quantity BETWEEN 10 AND 50 AND Price IS NOT NULL));
